@@ -9,11 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from '@core/in-memory-data.service';
 
-import { HelloComponent } from './exercise2/hello.component';
-import { DataService } from './exercise3/data.service';
-
 @NgModule({
-  declarations: [AppComponent , HelloComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -22,7 +19,6 @@ import { DataService } from './exercise3/data.service';
     CoreModule.forRoot(),
     InMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 600 })
   ],
-  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

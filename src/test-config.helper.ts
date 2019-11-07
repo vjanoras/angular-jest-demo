@@ -12,7 +12,10 @@ export const configureTests = (configure: ConfigureFn, compilerOptions: Compiler
     preserveWhitespaces: false,
     ...compilerOptions,
   }
+
   const configuredTestBed = TestBed.configureCompiler(compilerConfig)
+
   configure(configuredTestBed)
+
   return configuredTestBed.compileComponents().then(() => configuredTestBed)
 }

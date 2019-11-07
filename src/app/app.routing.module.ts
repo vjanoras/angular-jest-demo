@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { CustomersRoutingModule } from './customers/customers.routing.module';
-import { HelloComponent } from "./exercise2/hello.component";
+
 const routes: Routes = [
   {
     path: '',
@@ -12,9 +12,7 @@ const routes: Routes = [
   {
     path: 'customers',
     loadChildren: 'app/customers/customers.routing.module#CustomersRoutingModule'
-  },
-  
-  { path: 'hello', component: HelloComponent }
+  }
 ];
 
 @NgModule({
