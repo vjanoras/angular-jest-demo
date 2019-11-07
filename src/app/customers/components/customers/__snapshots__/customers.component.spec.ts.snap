@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomersComponent renders customers markup to snapshot 1`] = `
+<app-customers
+  customers={[Function Array]}
+>
+  <ul>
+    
+    <li>
+      Customer: 1 - test1 
+    </li>
+    <li>
+      Customer: 2 - test2 
+    </li>
+    <li>
+      Customer: 3 - test3 
+    </li>
+  </ul>
+</app-customers>
+`;

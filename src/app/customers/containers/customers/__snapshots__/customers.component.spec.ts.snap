@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomersComponentContainer renders markup to snapshot 1`] = `
+<app-customers-container
+  customers$={[Function TestHotObservable]}
+  store={[Function Object]}
+>
+  <h2>
+    Customers
+  </h2><app-customers>
+    <ul>
+      
+    </ul>
+  </app-customers>
+</app-customers-container>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should render html 1`] = `
+<div
+  id="root1"
+  ng-version="5.2.9"
+>
+  <router-outlet />
+</div>
+`;
